@@ -1,64 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dynamic Web Appications Portfolio - Jason Yu</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel='stylesheet' href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' type='text/css'>
-	<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<style>
+    <title>Dynamic Web Appications Portfolio - Jason Yu</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css"/>
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet"/>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            margin-bottom: 50px;
+            min-width: 600px;
+            width: 75%;
+        }
 
-		h1 {
-			text-align:center;
-		}
+        body {
+            color: white;
+            font-family: 'PT Sans', sans-serif;
+        }
 
-		.container {
-			width:75%;
-			min-width:600px;
-			margin-bottom:50px;
-		}
+        h1 {
+            text-align: center;
+        }
 
-		img {
-			display:block;
-			margin:auto;
-			width:25%;
-		}
+        h2 {
+            text-align: center;
+        }
 
-	</style>
+        hr {
+            border: 1px solid;
+        }
+
+        img {
+            border: 2px solid;
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
 </head>
-<body>
-	<div class="container">
+<body background="background.jpg">
+    <div class="container">
+        <h1>Dynamic Web Appications Portfolio</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-5">
+                <img src='profile.jpg' alt='Jason Yu' border=50>
+                <h1>Jason Yu</h1>
+                <hr>
 
-		<h1>Dynamic Web Appications Portfolio</h1>
-		<img src='http://api.randomuser.me/portraits/men/62.jpg' alt='Jason Yu'>
-		<h1>Jason Yu</h1>
+                <h3>Project 2: <a href="../p2">PHP Basics</a></h3>
+                Github: <a href="https://github.com/jasonjyu/cscie15-projects/tree/master/p2">[link]</a>
 
-		<h3>Project 2: <a href="">Title</a></h3>
-		Github: [link]
+                <h3>Project 3: <a href="../p3">Laravel Basics</a></h3>
+                Github: <a href="https://github.com/jasonjyu/cscie15-projects/tree/master/p3">[link]</a>
 
-		<h3>Project 3: <a href="">Title</a></h3>
-		Github: [link]
+                <h3>Project 4: <a href="../p4">Final Project</a></h3>
+                Github: <a href="https://github.com/jasonjyu/cscie15-projects/tree/master/p4">[link]</a>
+            </div>
+            <div class="col-md-7">
+                <h2>In 2+ sentences describe who you are and what you do.</h2>
+                <p>My name is Jason Yu and I am a second year graduate student pursuing a Master's Degree in Software Engineering.  I graduated from the Rutgers University School of Engineering with a Bachelor's Degree in Computer Engineering and minor in Computer Science.  I am also a Software Engineer working for the Raytheon aerospace and defense company.</p>
 
-		<h3>Project 4: <a href="">Title</a></h3>
-		Github: [link]
+                <h2>Why are you taking this course?</h2>
+                <p>I am taking this course to build up my front-end programming skills and combine it with my experience programming back-end software.</p>
 
+                <h2>What previous experience do you have with programming?</h2>
+                <p>I have previous programming experience with C, C++, Java and JavaScript.  I have experience with shell scripting in sh, csh and bash.</p>
 
-		<h2>In 2+ sentences describe who you are and what you do.</h2>
-		<p>My name is Jason Yu and I am a second year graduate student pursuing a Master's Degree in Software Engineering.  I graduated from the Rutgers University School of Engineering with a Bachelor's Degree in Computer Engineering and minor in Computer Science.  I am also a Software Engineer working for the Raytheon aerospace and defense company.</p>
+                <h2>Are you working on a Mac, PC, or some other platform?</h2>
+                <p>I am working on a Mac.</p>
 
-		<h2>Why are you taking this course?</h2>
-		<p>I am taking this course to build up my front-end programming skills, which I feel is lacking compared to my experience programming back-end software.</p>
-
-		<h2>What previous experience do you have with programming?</h2>
-		<p>I have previous programming experience with C, C++, Java and JavaScript.  I have experience with shell scripting in sh, csh and bash.</p>
-
-		<h2>Are you working on a Mac, PC, or some other platform?</h2>
-		<p>I am working on a Mac.</p>
-
-		<h2>Anything else we should know?</h2>
-		<p>I live about 45 minutes from campus.  So I will mostly participate online, but I will try to attend class in person from time to time.</p>
-
-	</div>
+                <h2>Anything else we should know?</h2>
+                <p>I live about 45 minutes from campus.  So I will mostly participate online, but I will try to attend class in person from time to time.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
