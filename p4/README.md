@@ -1,16 +1,16 @@
-# Project 1: System Setup / Portfolio
+# Project 4: Final Project
 
 ## Live URL
-<http://p1.lengjai.me>
+<http://p4.lengjai.me>
 
 ## Description
-A single page website using basic HTML and CSS.
+TBD.
 
 ## Demo
-None.
+TBD.
 
 ## Details for teaching team
-None.
+TBD.
 
 ## Outside code
 * Bootstrap: http://getbootstrap.com/

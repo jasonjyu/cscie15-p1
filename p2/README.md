@@ -1,13 +1,13 @@
-# Project 2: PHP Basics 
+# Project 2: PHP Basics
 
 ## Live URL
-<http://p2.dwa15.com>
+<http://p2.lengjai.com>
 
 ## Description
 A simple utility for generating [xkcd style passwords](http://xkcd.com/936/).
 
 ## Demo
-<https://www.youtube.com/watch?v=RoqrD9ZD0N4&feature=youtu.be>
+TBD.
 
 ## Details for teaching team
 No login required.
