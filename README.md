@@ -1,7 +1,7 @@
 # Project 1: System Setup / Portfolio
 
 ## Live URL
-<http://p1.lengjai.me>
+<http://p1.lengjai.me> (http://198.199.71.252/p1/)
 
 ## Description
 A single page website using basic HTML and CSS.
